@@ -1,4 +1,5 @@
 ---
+layout: cheatsheets
 title: "Google Dorks"
 ---
 ## Google Dorks
