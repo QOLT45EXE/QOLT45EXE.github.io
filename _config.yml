@@ -1,0 +1,14 @@
+title: "Cheat n Yeet"
+description: "A  reference site."
+baseurl: ""
+url: "https://QOLT45EXE.github.io"
+
+collections:
+  cheatsheets:
+    output: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
