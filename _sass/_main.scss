@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  a {
+    color: #00ff00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #00cc00;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #00ff00;
+  }
+  
+  header, footer {
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cheatsheet {
+    border: 1px solid #00ff00;
+    padding: 20px;
+  }
+  
+  pre, code {
+    background: black;
+    color: #00ff00;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    overflow-x: auto;
+  }
+  
