@@ -7,7 +7,7 @@ title: "Google Dorks"
 
 ## Search Filters
 
-| Filter       | Usage                                                    |
+| Filter       | Usage                               s                     |
 |--------------|----------------------------------------------------------|
 | `allintext`  | `allintext:"keyword"`                                    |
 | `intext`     | `intext:"keyword"`                                       |

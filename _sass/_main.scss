@@ -33,7 +33,8 @@ header, footer {
   padding: 20px;
 }
 
-pre, code {
+pre,
+code {
   background: black;
   color: #00ff00;
   padding: 10px;
@@ -41,7 +42,17 @@ pre, code {
   overflow-x: auto;
 }
 
-/* ✅ Improved table styling */
+/* 🧨 Fix for <code> inside <td> causing double borders */
+td code,
+th code {
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: #00ff00;
+  font-size: 0.95rem;
+}
+
+/* ✅ Clean hacker-style table layout */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -79,7 +90,7 @@ tr:hover td {
   background-color: #003300;
 }
 
-/* Optional topbar links if used */
+/* Optional topbar nav links */
 nav a {
   margin-right: 15px;
   font-weight: bold;
