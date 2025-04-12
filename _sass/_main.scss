@@ -41,3 +41,25 @@ body {
     overflow-x: auto;
   }
   
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: monospace;
+    color: lime;
+    border: 1px solid lime;
+  }
+  
+  th, td {
+    border: 1px solid lime;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+  }
+  
+  th {
+    background-color: black;
+    color: lime;
+  }
+  
