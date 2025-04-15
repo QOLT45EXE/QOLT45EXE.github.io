@@ -42,17 +42,16 @@ code {
   overflow-x: auto;
 }
 
-/* 🧨 Fix for <code> inside <td> causing double borders */
 td code,
 th code {
-  border: none;
-  background: transparent;
-  padding: 0;
+  all: unset;
+  font-family: monospace;
   color: #00ff00;
   font-size: 0.95rem;
+  line-height: 1.2;
+  display: inline;
 }
 
-/* ✅ Clean hacker-style table layout */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -90,7 +89,6 @@ tr:hover td {
   background-color: #003300;
 }
 
-/* Optional topbar nav links */
 nav a {
   margin-right: 15px;
   font-weight: bold;
