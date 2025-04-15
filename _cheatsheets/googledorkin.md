@@ -3,8 +3,6 @@ layout: cheatsheet
 title: "Google Dorks"
 ---
 
-# Google Dorks
-
 ## Search Filters
 
 | Filter       | Usage                               s                     |
